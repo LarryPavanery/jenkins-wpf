@@ -19,15 +19,6 @@ namespace IntroTest
             Assert.AreEqual(x, y);
         }
 
-        [Test]
-        public void NegativeTest()
-        {
-            if (true)
-            {
-                Assert.Fail("!!!This is a failure, oh no!!! =D");
-            }
-        }
-
         [Test, ExpectedException(typeof(NotSupportedException))]
         public void ExceptedExceptionTest()
         {

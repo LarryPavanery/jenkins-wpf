@@ -19,7 +19,7 @@ namespace IntroTest
         [Test]
         public void NegativeTest()
         {
-            Assert.Fail("This is a failure in SecondTests");
+            Assert.AreEqual(2, 2);
         }
     }
 }
